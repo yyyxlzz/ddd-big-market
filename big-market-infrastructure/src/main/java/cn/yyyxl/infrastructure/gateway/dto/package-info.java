@@ -1,0 +1,1 @@
+package cn.yyyxl.infrastructure.gateway.dto;
