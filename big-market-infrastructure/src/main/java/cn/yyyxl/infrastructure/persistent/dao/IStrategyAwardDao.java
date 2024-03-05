@@ -1,6 +1,6 @@
 package cn.yyyxl.infrastructure.persistent.dao;
 
-import cn.yyyxl.infrastructure.persistent.po.Award;
+import cn.yyyxl.domain.strategy.service.armory.StrategyArmory;
 import cn.yyyxl.infrastructure.persistent.po.StrategyAward;
 import org.apache.ibatis.annotations.Mapper;
 
@@ -16,4 +16,5 @@ public interface IStrategyAwardDao {
 
     List<StrategyAward> queryStrategyAwardList();
 
+    List<StrategyAward> queryStrategyAwardListByStrategyId(Long strategyId);
 }

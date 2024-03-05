@@ -33,7 +33,7 @@ public class StrategyAward {
     private Integer awardCount;
 
     /** 奖品库存剩余 */
-    private Integer awardCountCurplus;
+    private Integer awardCountSurplus;
 
     /** 奖品中奖概率 */
     private BigDecimal awardRate;
