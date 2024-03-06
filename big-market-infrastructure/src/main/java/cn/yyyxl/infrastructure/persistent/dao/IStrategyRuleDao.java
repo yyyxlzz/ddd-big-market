@@ -1,6 +1,5 @@
 package cn.yyyxl.infrastructure.persistent.dao;
 
-import cn.yyyxl.infrastructure.persistent.po.StrategyAward;
 import cn.yyyxl.infrastructure.persistent.po.StrategyRule;
 import org.apache.ibatis.annotations.Mapper;
 
@@ -16,4 +15,5 @@ public interface IStrategyRuleDao {
 
     List<StrategyRule> queryStrategyRuleList();
 
+    StrategyRule queryStrategyRule(StrategyRule strategyRuleReq);
 }

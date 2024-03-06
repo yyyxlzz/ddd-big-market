@@ -1,7 +1,6 @@
 package cn.yyyxl.infrastructure.persistent.dao;
 
 import cn.yyyxl.infrastructure.persistent.po.Strategy;
-import cn.yyyxl.infrastructure.persistent.po.StrategyAward;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
@@ -16,4 +15,5 @@ public interface IStrategyDao {
 
     List<Strategy> queryStrategyList();
 
+    Strategy queryStrategyEntityByStrategyId(Long strategyId);
 }

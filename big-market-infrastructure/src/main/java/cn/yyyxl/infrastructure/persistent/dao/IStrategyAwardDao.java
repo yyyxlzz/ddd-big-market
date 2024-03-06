@@ -1,6 +1,5 @@
 package cn.yyyxl.infrastructure.persistent.dao;
 
-import cn.yyyxl.domain.strategy.service.armory.StrategyArmory;
 import cn.yyyxl.infrastructure.persistent.po.StrategyAward;
 import org.apache.ibatis.annotations.Mapper;
 
