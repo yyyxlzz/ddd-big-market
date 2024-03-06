@@ -9,7 +9,7 @@ import java.math.BigDecimal;
 
 /**
  * @Author: yyyxl
- * @Description: TODO
+ * @Description: 策略奖品实体
  * @DateTime: 2024/3/5 16:34
  **/
 @Data

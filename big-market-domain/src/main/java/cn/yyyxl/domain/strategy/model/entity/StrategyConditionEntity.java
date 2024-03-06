@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 
 /**
  * @Author: yyyxl
- * @Description: TODO
+ * @Description: 策略条件实体
  * @DateTime: 2024/3/6 10:52
  **/
 @Data
